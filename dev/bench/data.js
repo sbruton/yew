@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643746144474,
-  "repoUrl": "https://github.com/yewstack/yew",
+  "lastUpdate": 1659236717798,
+  "repoUrl": "https://github.com/sbruton/yew",
   "entries": {
     "Yew master branch benchmarks (Lower is better)": [
       {
@@ -4577,6 +4577,120 @@ window.BENCHMARK_DATA = {
           {
             "name": "yew-struct-keyed 34_startup-totalbytes",
             "value": "367.962890625",
+            "unit": ""
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "spencer@imbleau.com",
+            "name": "Spencer C. Imbleau (he/him)",
+            "username": "simbleau"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a4dcdedf30073a792b19b49439db3d648410731a",
+          "message": "Fixes #2789 (#2791)",
+          "timestamp": "2022-07-27T03:06:14+02:00",
+          "tree_id": "0e4f0057c81c91215ba67da3139a652f3c0c85b6",
+          "url": "https://github.com/sbruton/yew/commit/a4dcdedf30073a792b19b49439db3d648410731a"
+        },
+        "date": 1659236716456,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "yew-struct-keyed 01_run1k",
+            "value": "160.3965",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 02_replace1k",
+            "value": "172.2825",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 03_update10th1k_x16",
+            "value": "358.51800000000003",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 04_select1k",
+            "value": "63.157",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 05_swap1k",
+            "value": "83.97300000000001",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 06_remove-one-1k",
+            "value": "29.1005",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 07_create10k",
+            "value": "2859.702",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 08_create1k-after1k_x2",
+            "value": "389.902",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 09_clear1k_x8",
+            "value": "185.519",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 21_ready-memory",
+            "value": "1.47186279296875",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 22_run-memory",
+            "value": "1.6663131713867188",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 23_update5-memory",
+            "value": "1.6661911010742188",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 24_run5-memory",
+            "value": "1.7149391174316406",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 25_run-clear-memory",
+            "value": "1.3318939208984375",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 31_startup-ci",
+            "value": "1736.212",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 32_startup-bt",
+            "value": "38.63199999999999",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 33_startup-mainthreadcost",
+            "value": "237.2920000000001",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 34_startup-totalbytes",
+            "value": "361.8955078125",
             "unit": ""
           }
         ]
